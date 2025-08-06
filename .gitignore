@@ -1,0 +1,4 @@
+node_modules/
+git rm --cached package-lock.json
+git rm --cached package.json   # Careful with this one!
+git commit -m "Ignore lock file"
